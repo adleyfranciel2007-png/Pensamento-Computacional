@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Stand - Pensamento Computacional</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      scroll-behavior:smooth;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body{
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color:white;
+    }
+
+    header{
+      min-height:100vh;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+      padding:20px;
+    }
+
+    header h1{
+      font-size:3rem;
+      margin-bottom:20px;
+      color:#38bdf8;
+    }
+
+    header p{
+      max-width:800px;
+      font-size:1.2rem;
+      line-height:1.6;
+      margin-bottom:40px;
+    }
+
+    .botoes{
+      display:flex;
+      flex-wrap:wrap;
+      gap:20px;
+      justify-content:center;
+    }
+
+    .botoes a{
+      text-decoration:none;
+      background:#38bdf8;
+      color:#0f172a;
+      padding:15px 25px;
+      border-radius:12px;
+      font-weight:bold;
+      transition:0.3s;
+    }
+
+    .botoes a:hover{
+      background:white;
+      transform:scale(1.05);
+    }
+
+    section{
+      min-height:100vh;
+      padding:80px 10%;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+    }
+
+    section h2{
+      font-size:2.5rem;
+      margin-bottom:20px;
+      color:#38bdf8;
+    }
+
+    .card{
+      background:rgba(255,255,255,0.08);
+      padding:30px;
+      border-radius:20px;
+      backdrop-filter:blur(8px);
+      box-shadow:0 0 20px rgba(0,0,0,0.3);
+    }
+
+    .card p{
+      font-size:1.1rem;
+      line-height:1.8;
+      margin-bottom:20px;
+    }
+
+    ul{
+      margin-left:20px;
+      line-height:1.8;
+    }
+
+    .voltar{
+      margin-top:30px;
+    }
+
+    .voltar a{
+      text-decoration:none;
+      color:#38bdf8;
+      font-weight:bold;
+    }
+
+    footer{
+      text-align:center;
+      padding:30px;
+      background:#020617;
+    }
+  </style>
+</head>
+<body>
+
+  <header id="inicio">
+    <h1>Pensamento Computacional</h1>
+
+    <p>
+      O pensamento computacional é uma forma de pensar e resolver problemas
+      de maneira lógica, organizada e eficiente, utilizando estratégias
+      inspiradas na computação.
+    </p>
+
+    <div class="botoes">
+      <a href="#decomposicao">Decomposição</a>
+      <a href="#padroes">Reconhecimento de Padrões</a>
+      <a href="#abstracao">Abstração</a>
+      <a href="#algoritmos">Algoritmos</a>
+    </div>
+  </header>
+
+  <section id="decomposicao">
+    <div class="card">
+      <h2>1. Decomposição</h2>
+
+      <p>
+        A decomposição consiste em dividir um problema grande e complexo
+        em partes menores e mais fáceis de resolver.
+      </p>
+
+      <p><strong>Exemplo:</strong> Organizar um seminário:</p>
+
+      <ul>
+        <li>Escolher o tema;</li>
+        <li>Pesquisar o conteúdo;</li>
+        <li>Criar os slides;</li>
+        <li>Ensaiar a apresentação;</li>
+        <li>Apresentar para a turma.</li>
+      </ul>
+
+      <div class="voltar">
+        <a href="#inicio">⬆ Voltar ao início</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="padroes">
+    <div class="card">
+      <h2>2. Reconhecimento de Padrões</h2>
+
+      <p>
+        É a capacidade de identificar semelhanças, repetições ou comportamentos
+        que acontecem com frequência.
+      </p>
+
+      <p>
+        <strong>Exemplo:</strong> Ao resolver vários exercícios de matemática,
+        perceber que todos seguem a mesma fórmula.
+      </p>
+
+      <p><strong>Benefícios:</strong></p>
+
+      <ul>
+        <li>Economiza tempo;</li>
+        <li>Facilita o aprendizado;</li>
+        <li>Permite prever resultados.</li>
+      </ul>
+
+      <div class="voltar">
+        <a href="#inicio">⬆ Voltar ao início</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="abstracao">
+    <div class="card">
+      <h2>3. Abstração</h2>
+
+      <p>
+        A abstração consiste em focar apenas nas informações importantes
+        e ignorar detalhes que não são necessários.
+      </p>
+
+      <p>
+        <strong>Exemplo:</strong> Um mapa mostra apenas as informações
+        essenciais para encontrar um endereço.
+      </p>
+
+      <p><strong>Benefícios:</strong></p>
+
+      <ul>
+        <li>Simplifica problemas complexos;</li>
+        <li>Melhora a compreensão;</li>
+        <li>Ajuda a encontrar soluções objetivas.</li>
+      </ul>
+
+      <div class="voltar">
+        <a href="#inicio">⬆ Voltar ao início</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="algoritmos">
+    <div class="card">
+      <h2>4. Algoritmos</h2>
+
+      <p>
+        Um algoritmo é uma sequência organizada de passos para realizar
+        uma tarefa ou resolver um problema.
+      </p>
+
+      <p><strong>Exemplo:</strong> Como fazer um sanduíche:</p>
+
+      <ul>
+        <li>Pegar o pão;</li>
+        <li>Colocar o recheio;</li>
+        <li>Fechar o pão;</li>
+        <li>Servir.</li>
+      </ul>
+
+      <p><strong>Benefícios:</strong></p>
+
+      <ul>
+        <li>Organiza o raciocínio;</li>
+        <li>Evita erros;</li>
+        <li>Permite automatizar tarefas.</li>
+      </ul>
+
+      <div class="voltar">
+        <a href="#inicio">⬆ Voltar ao início</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>
+      Projeto: Desenvolvendo o Pensamento Computacional em Estudantes do Ensino Médio
+    </p>
+  </footer>
+
+</body>
+</html>
